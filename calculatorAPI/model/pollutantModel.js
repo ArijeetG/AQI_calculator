@@ -17,17 +17,8 @@ const polutantSchema = new Schema({
     type: String,
     required: true,
   },
-  username: {
-      type: String,
-      required: true
-  },
-  password: {
-      type: String,
-      required: true
-  }
 });
 
 const pollutant = model("PollutantModel", polutantSchema);
 
-module.exports = pollutant
-
+module.exports = pollutant;

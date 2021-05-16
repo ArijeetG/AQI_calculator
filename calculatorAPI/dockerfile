@@ -1,0 +1,9 @@
+FROM node
+
+WORKDIR /calculatorAPI
+
+COPY . .
+
+RUN npm i
+
+CMD ["node", "index.js"]
