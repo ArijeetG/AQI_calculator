@@ -1,0 +1,6 @@
+PREREQUISITES: 
+    For this project a mongodb atlas cluster has been used. Follow the .env.example structure to set up variables.
+
+To run the project do a 
+-   docker-compose build (in root directory)
+-   docker-compose up.
